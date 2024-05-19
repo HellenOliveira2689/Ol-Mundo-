@@ -1,0 +1,54 @@
+div {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.vermelho {
+    background-color: rgb(245, 106, 106);
+}
+
+.azul {
+    background-color: rgb(138, 138, 233);
+}
+
+.verde {
+    background-color: rgb(89, 151, 89);
+}
+
+.amarelo {
+    background-color: rgb(224, 224, 117);
+}
+
+#lateral1:hover {
+    background-color: blueviolet;
+}
+
+#lateral2:hover {
+    background-color: aquamarine;
+}
+
+#lateral3:hover {
+    background-color: coral;
+}
+
+#lateral4:hover {
+    background-color: rgb(236, 218, 114);
+}
+
+#lateral1 {
+    border: 2px solid black;
+}
+
+#lateral2 {
+    border: 2px solid black;
+}
+
+#lateral3 {
+    border: 2px solid black;
+}
+
+#lateral4 {
+    border: 2px solid black;
+}
