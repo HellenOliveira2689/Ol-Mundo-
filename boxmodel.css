@@ -1,0 +1,33 @@
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.box-model {
+    width: 400px;
+    height: 400px;
+    background-image: url('https://images.pexels.com/photos/800330/pexels-photo-800330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover; 
+    background-position: center;
+    border: 5px inset rgb(248, 205, 97);
+    border-radius: 1px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 
+    0 0 0 15px rgb(197, 195, 231),
+    0 0 0 40px rgb(152, 152, 214),
+    0 0 0 60px rgb(182, 113, 182);  
+}
+
+.texto {
+    text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: rgb(172, 171, 171);
+}
